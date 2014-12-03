@@ -31,7 +31,7 @@ public struct Memo<T> {
 	// MARK: API
 
 	/// Returns a new `Memo` which lazily memoizes the result of applying `f` to the receiver’s value.
-	func map<U>(f: T -> U) -> Memo<U> {
+	public func map<U>(f: T -> U) -> Memo<U> {
 		return Memo<U>(f(value))
 	}
 
@@ -55,14 +55,14 @@ public struct Memo<T> {
 /// Equality of `Memo`s of `Equatable` types.
 ///
 /// We cannot declare that `Memo<T: Equatable>` conforms to `Equatable`, so this is defined ad hoc.
-func == <T: Equatable> (lhs: Memo<T>, rhs: Memo<T>) -> Bool {
+public func == <T: Equatable> (lhs: Memo<T>, rhs: Memo<T>) -> Bool {
 	return lhs.value == rhs.value
 }
 
 /// Inequality of `Memo`s of `Equatable` types.
 ///
 /// We cannot declare that `Memo<T: Equatable>` conforms to `Equatable`, so this is defined ad hoc.
-func != <T: Equatable> (lhs: Memo<T>, rhs: Memo<T>) -> Bool {
+public func != <T: Equatable> (lhs: Memo<T>, rhs: Memo<T>) -> Bool {
 	return lhs.value != rhs.value
 }
 
