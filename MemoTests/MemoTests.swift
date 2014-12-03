@@ -78,4 +78,17 @@ final class MemoTests: XCTestCase {
 		XCTAssertEqual(mapped.value, effects + memo.value)
 		XCTAssertEqual(effects, 2)
 	}
+
+
+	// MARK: Equality
+
+	func testEqualityOverEquatable() {
+		let memo = Memo(++effects)
+		XCTAssertTrue(memo == Memo(1))
+	}
+
+	func testInequalityOverEquatable() {
+		let memo = Memo(++effects)
+		XCTAssertTrue(memo != Memo(0))
+	}
 }
