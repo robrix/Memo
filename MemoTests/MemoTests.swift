@@ -65,4 +65,17 @@ final class MemoTests: XCTestCase {
 		XCTAssertEqual(copy.value, effects)
 		XCTAssertEqual(effects, 1)
 	}
+
+
+	// MARK: Map
+
+	func testMapEvaluatesLazily() {
+		let memo = Memo(++effects)
+		let mapped = memo.map { $0 + ++self.effects }
+		XCTAssertEqual(effects, 0)
+		XCTAssertEqual(memo.value, 1)
+		XCTAssertEqual(effects, 1)
+		XCTAssertEqual(mapped.value, effects + memo.value)
+		XCTAssertEqual(effects, 2)
+	}
 }

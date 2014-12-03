@@ -31,7 +31,7 @@ public struct Memo<T> {
 	// MARK: API
 
 	/// Returns a new `Memo` which lazily memoizes the result of applying `f` to the receiver’s value.
-	func map<U>(f: T -> U) -> Memo<U> {
+	public func map<U>(f: T -> U) -> Memo<U> {
 		return Memo<U>(f(value))
 	}
 
