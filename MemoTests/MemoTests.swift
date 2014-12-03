@@ -2,4 +2,4 @@
 
 import XCTest
 
-class MemoTests: XCTestCase {}
+final class MemoTests: XCTestCase {}
