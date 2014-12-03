@@ -10,6 +10,7 @@
 		D4BAF0661A2EAF02006E25DF /* Memo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BAF0651A2EAF02006E25DF /* Memo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4BAF06C1A2EAF02006E25DF /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0601A2EAF02006E25DF /* Memo.framework */; };
 		D4BAF0731A2EAF02006E25DF /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF0721A2EAF02006E25DF /* MemoTests.swift */; };
+		D4D9A4D11A2EB50B000D9C23 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D9A4D01A2EB50B000D9C23 /* Box.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		D4BAF06B1A2EAF02006E25DF /* MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0711A2EAF02006E25DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BAF0721A2EAF02006E25DF /* MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
+		D4D9A4D01A2EB50B000D9C23 /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Box.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Memo-gckjwjhvobgrrpgheuyaonxcriig/Build/Products/Debug/Box.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D9A4D11A2EB50B000D9C23 /* Box.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +58,7 @@
 			children = (
 				D4BAF0621A2EAF02006E25DF /* Memo */,
 				D4BAF06F1A2EAF02006E25DF /* MemoTests */,
+				D4D9A4D01A2EB50B000D9C23 /* Box.framework */,
 				D4BAF0611A2EAF02006E25DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -400,6 +404,7 @@
 				D4BAF0781A2EAF02006E25DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4BAF0791A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "MemoTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				D4BAF07B1A2EAF02006E25DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
