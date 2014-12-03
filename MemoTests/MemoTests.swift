@@ -51,4 +51,18 @@ final class MemoTests: XCTestCase {
 		XCTAssertEqual(memo.value, effects)
 		XCTAssertEqual(effects, 1)
 	}
+
+
+	// MARK: Copying
+
+	func testCopiesMemoizeTogether() {
+		let memo = Memo(++effects)
+		XCTAssertEqual(effects, 0)
+
+		let copy = memo
+
+		XCTAssertEqual(memo.value, copy.value)
+		XCTAssertEqual(copy.value, effects)
+		XCTAssertEqual(effects, 1)
+	}
 }
