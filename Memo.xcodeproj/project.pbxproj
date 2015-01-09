@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB5CFDE1A5F158500EAF7FE /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9A4CE1A2EB47C000D9C23 /* Memo.swift */; };
+		BFB5CFE01A5F158500EAF7FE /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D9A4D01A2EB50B000D9C23 /* Box.framework */; };
+		BFB5CFE21A5F158500EAF7FE /* Memo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BAF0651A2EAF02006E25DF /* Memo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4BAF0661A2EAF02006E25DF /* Memo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BAF0651A2EAF02006E25DF /* Memo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4BAF06C1A2EAF02006E25DF /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0601A2EAF02006E25DF /* Memo.framework */; };
 		D4BAF0731A2EAF02006E25DF /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF0721A2EAF02006E25DF /* MemoTests.swift */; };
@@ -25,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFB5CFE71A5F158500EAF7FE /* Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0601A2EAF02006E25DF /* Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0641A2EAF02006E25DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BAF0651A2EAF02006E25DF /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
@@ -36,6 +40,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BFB5CFDF1A5F158500EAF7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CFE01A5F158500EAF7FE /* Box.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4BAF05C1A2EAF02006E25DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,6 +82,7 @@
 			children = (
 				D4BAF0601A2EAF02006E25DF /* Memo.framework */,
 				D4BAF06B1A2EAF02006E25DF /* MemoTests.xctest */,
+				BFB5CFE71A5F158500EAF7FE /* Memo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +125,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BFB5CFE11A5F158500EAF7FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CFE21A5F158500EAF7FE /* Memo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4BAF05D1A2EAF02006E25DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +144,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BFB5CFDC1A5F158500EAF7FE /* Memo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB5CFE41A5F158500EAF7FE /* Build configuration list for PBXNativeTarget "Memo-iOS" */;
+			buildPhases = (
+				BFB5CFDD1A5F158500EAF7FE /* Sources */,
+				BFB5CFDF1A5F158500EAF7FE /* Frameworks */,
+				BFB5CFE11A5F158500EAF7FE /* Headers */,
+				BFB5CFE31A5F158500EAF7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memo-iOS";
+			productName = Memo;
+			productReference = BFB5CFE71A5F158500EAF7FE /* Memo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D4BAF05F1A2EAF02006E25DF /* Memo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4BAF0761A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo" */;
@@ -190,11 +229,19 @@
 			targets = (
 				D4BAF05F1A2EAF02006E25DF /* Memo */,
 				D4BAF06A1A2EAF02006E25DF /* MemoTests */,
+				BFB5CFDC1A5F158500EAF7FE /* Memo-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BFB5CFE31A5F158500EAF7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4BAF05E1A2EAF02006E25DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +259,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BFB5CFDD1A5F158500EAF7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CFDE1A5F158500EAF7FE /* Memo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4BAF05B1A2EAF02006E25DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +294,45 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BFB5CFE51A5F158500EAF7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Memo/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Memo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB5CFE61A5F158500EAF7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Memo/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Memo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D4BAF0741A2EAF02006E25DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +486,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BFB5CFE41A5F158500EAF7FE /* Build configuration list for PBXNativeTarget "Memo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB5CFE51A5F158500EAF7FE /* Debug */,
+				BFB5CFE61A5F158500EAF7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D4BAF05A1A2EAF01006E25DF /* Build configuration list for PBXProject "Memo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
