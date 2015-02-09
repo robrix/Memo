@@ -32,7 +32,7 @@ public struct Memo<T> {
 
 	/// Returns a new `Memo` which lazily memoizes the result of applying `f` to the receiver’s value.
 	public func map<U>(f: T -> U) -> Memo<U> {
-		return Memo<U> { f(self.value) }
+		return Memo<U> { f{self.value) }
 	}
 
 
