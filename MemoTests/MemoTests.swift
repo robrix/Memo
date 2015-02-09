@@ -4,8 +4,6 @@ import Memo
 import XCTest
 
 final class MemoTests: XCTestCase {
-	var effects = 0
-
 	override func setUp() {
 		effects = 0
 	}
@@ -14,12 +12,12 @@ final class MemoTests: XCTestCase {
 	// MARK: Evaluation
 
 	func testEvaluatesLazilyWithAutoclosureConstruction() {
-		let memo = Memo(++effects)
+		let memo = Memo { ++effects }
 		XCTAssertEqual(effects, 0)
 	}
 
 	func testEvaluatesLazilyWithClosureConstruction() {
-		let memo = Memo { ++self.effects }
+		let memo = Memo { ++effects }
 		XCTAssertEqual(effects, 0)
 	}
 
@@ -32,14 +30,14 @@ final class MemoTests: XCTestCase {
 	// MARK: Memoization
 
 	func testMemoizesWithAutoclosureConstruction() {
-		let memo = Memo(++effects)
+		let memo = Memo { ++effects }
 		XCTAssertEqual(memo.value, memo.value)
 		XCTAssertEqual(memo.value, effects)
 		XCTAssertEqual(effects, 1)
 	}
 
 	func testMemoizesWithClosureConstruction() {
-		let memo = Memo { ++self.effects }
+		let memo = Memo { ++effects }
 		XCTAssertEqual(memo.value, memo.value)
 		XCTAssertEqual(memo.value, effects)
 		XCTAssertEqual(effects, 1)
@@ -56,7 +54,7 @@ final class MemoTests: XCTestCase {
 	// MARK: Copying
 
 	func testCopiesMemoizeTogether() {
-		let memo = Memo(++effects)
+		let memo = Memo { ++effects }
 		XCTAssertEqual(effects, 0)
 
 		let copy = memo
@@ -70,8 +68,8 @@ final class MemoTests: XCTestCase {
 	// MARK: Map
 
 	func testMapEvaluatesLazily() {
-		let memo = Memo(++effects)
-		let mapped = memo.map { $0 + ++self.effects }
+		let memo = Memo { ++effects }
+		let mapped = memo.map { $0 + ++effects }
 		XCTAssertEqual(effects, 0)
 		XCTAssertEqual(memo.value, 1)
 		XCTAssertEqual(effects, 1)
@@ -83,12 +81,17 @@ final class MemoTests: XCTestCase {
 	// MARK: Equality
 
 	func testEqualityOverEquatable() {
-		let memo = Memo(++effects)
-		XCTAssertTrue(memo == Memo(1))
+		let memo = Memo { ++effects }
+		XCTAssertTrue(memo == Memo(evaluated: 1))
 	}
 
 	func testInequalityOverEquatable() {
-		let memo = Memo(++effects)
-		XCTAssertTrue(memo != Memo(0))
+		let memo = Memo { ++effects }
+		XCTAssertTrue(memo != Memo(evaluated: 0))
 	}
 }
+
+
+// MARK: - Fixtures
+
+private var effects = 0
