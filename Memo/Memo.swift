@@ -4,8 +4,8 @@
 public struct Memo<T> {
 	// MARK: Lifecycle
 
-	/// Constructs a `Memo` which lazily evaluates the `@autoclosure`’d argument.
-	public init(_ unevaluated: @autoclosure () -> T) {
+	/// Constructs a `Memo` which lazily evaluates the argument.
+	public init(_ unevaluated:  () -> T) {
 		self.init(unevaluated: unevaluated)
 	}
 
@@ -32,7 +32,7 @@ public struct Memo<T> {
 
 	/// Returns a new `Memo` which lazily memoizes the result of applying `f` to the receiver’s value.
 	public func map<U>(f: T -> U) -> Memo<U> {
-		return Memo<U>(f(value))
+		return Memo<U> { f(self.value) }
 	}
 
 
