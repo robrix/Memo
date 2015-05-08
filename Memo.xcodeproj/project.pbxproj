@@ -178,9 +178,9 @@
 			productReference = D4999C391AFD5D9D00F379C6 /* Memo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D4999C421AFD5D9D00F379C6 /* MemoTests */ = {
+		D4999C421AFD5D9D00F379C6 /* Memo-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4999C4F1AFD5D9D00F379C6 /* Build configuration list for PBXNativeTarget "MemoTests" */;
+			buildConfigurationList = D4999C4F1AFD5D9D00F379C6 /* Build configuration list for PBXNativeTarget "Memo-iOSTests" */;
 			buildPhases = (
 				D4999C3F1AFD5D9D00F379C6 /* Sources */,
 				D4999C401AFD5D9D00F379C6 /* Frameworks */,
@@ -191,7 +191,7 @@
 			dependencies = (
 				D4999C461AFD5D9D00F379C6 /* PBXTargetDependency */,
 			);
-			name = MemoTests;
+			name = "Memo-iOSTests";
 			productName = MemoTests;
 			productReference = D4999C431AFD5D9D00F379C6 /* MemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -214,9 +214,9 @@
 			productReference = D4BAF0601A2EAF02006E25DF /* Memo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D4BAF06A1A2EAF02006E25DF /* MemoTests */ = {
+		D4BAF06A1A2EAF02006E25DF /* Memo-MacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4BAF0791A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "MemoTests" */;
+			buildConfigurationList = D4BAF0791A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo-MacTests" */;
 			buildPhases = (
 				D4BAF0671A2EAF02006E25DF /* Sources */,
 				D4BAF0681A2EAF02006E25DF /* Frameworks */,
@@ -227,7 +227,7 @@
 			dependencies = (
 				D4BAF06E1A2EAF02006E25DF /* PBXTargetDependency */,
 			);
-			name = MemoTests;
+			name = "Memo-MacTests";
 			productName = MemoTests;
 			productReference = D4BAF06B1A2EAF02006E25DF /* MemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -268,9 +268,9 @@
 			projectRoot = "";
 			targets = (
 				D4BAF05F1A2EAF02006E25DF /* Memo-Mac */,
-				D4BAF06A1A2EAF02006E25DF /* MemoTests */,
+				D4BAF06A1A2EAF02006E25DF /* Memo-MacTests */,
 				D4999C381AFD5D9D00F379C6 /* Memo-iOS */,
-				D4999C421AFD5D9D00F379C6 /* MemoTests */,
+				D4999C421AFD5D9D00F379C6 /* Memo-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -595,7 +595,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		D4999C4F1AFD5D9D00F379C6 /* Build configuration list for PBXNativeTarget "MemoTests" */ = {
+		D4999C4F1AFD5D9D00F379C6 /* Build configuration list for PBXNativeTarget "Memo-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4999C501AFD5D9D00F379C6 /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4BAF0791A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "MemoTests" */ = {
+		D4BAF0791A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo-MacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4BAF07A1A2EAF02006E25DF /* Debug */,

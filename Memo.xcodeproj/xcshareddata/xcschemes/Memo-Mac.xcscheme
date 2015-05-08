@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4BAF06A1A2EAF02006E25DF"
-               BuildableName = "MemoTests.xctest"
-               BlueprintName = "MemoTests"
+               BuildableName = "Memo-MacTests.xctest"
+               BlueprintName = "Memo-MacTests"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4BAF06A1A2EAF02006E25DF"
-               BuildableName = "MemoTests.xctest"
-               BlueprintName = "MemoTests"
+               BuildableName = "Memo-MacTests.xctest"
+               BlueprintName = "Memo-MacTests"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
          </TestableReference>
