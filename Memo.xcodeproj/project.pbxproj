@@ -39,12 +39,12 @@
 
 /* Begin PBXFileReference section */
 		D4999C391AFD5D9D00F379C6 /* Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4999C431AFD5D9D00F379C6 /* MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4999C431AFD5D9D00F379C6 /* Memo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4999C531AFD5E3D00F379C6 /* Box.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Box.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0601A2EAF02006E25DF /* Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0641A2EAF02006E25DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BAF0651A2EAF02006E25DF /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
-		D4BAF06B1A2EAF02006E25DF /* MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BAF06B1A2EAF02006E25DF /* Memo-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0711A2EAF02006E25DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BAF0721A2EAF02006E25DF /* MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
 		D4D9A4CE1A2EB47C000D9C23 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				D4BAF0601A2EAF02006E25DF /* Memo.framework */,
-				D4BAF06B1A2EAF02006E25DF /* MemoTests.xctest */,
+				D4BAF06B1A2EAF02006E25DF /* Memo-MacTests.xctest */,
 				D4999C391AFD5D9D00F379C6 /* Memo.framework */,
-				D4999C431AFD5D9D00F379C6 /* MemoTests.xctest */,
+				D4999C431AFD5D9D00F379C6 /* Memo-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			);
 			name = "Memo-iOSTests";
 			productName = MemoTests;
-			productReference = D4999C431AFD5D9D00F379C6 /* MemoTests.xctest */;
+			productReference = D4999C431AFD5D9D00F379C6 /* Memo-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D4BAF05F1A2EAF02006E25DF /* Memo-Mac */ = {
@@ -234,7 +234,7 @@
 			);
 			name = "Memo-MacTests";
 			productName = MemoTests;
-			productReference = D4BAF06B1A2EAF02006E25DF /* MemoTests.xctest */;
+			productReference = D4BAF06B1A2EAF02006E25DF /* Memo-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
