@@ -12,6 +12,8 @@
 		D4999C541AFD5E3D00F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4999C551AFD5EA800F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4999C561AFD606000F379C6 /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF0721A2EAF02006E25DF /* MemoTests.swift */; };
+		D4999C571AFD610500F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
+		D4999C581AFD610800F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4BAF0661A2EAF02006E25DF /* Memo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BAF0651A2EAF02006E25DF /* Memo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4BAF06C1A2EAF02006E25DF /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0601A2EAF02006E25DF /* Memo.framework */; };
 		D4BAF0731A2EAF02006E25DF /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF0721A2EAF02006E25DF /* MemoTests.swift */; };
@@ -62,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4999C441AFD5D9D00F379C6 /* Memo.framework in Frameworks */,
+				D4999C571AFD610500F379C6 /* Box.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4BAF06C1A2EAF02006E25DF /* Memo.framework in Frameworks */,
+				D4999C581AFD610800F379C6 /* Box.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
