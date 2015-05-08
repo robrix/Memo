@@ -123,9 +123,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D4BAF05F1A2EAF02006E25DF /* Memo */ = {
+		D4BAF05F1A2EAF02006E25DF /* Memo-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4BAF0761A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo" */;
+			buildConfigurationList = D4BAF0761A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo-Mac" */;
 			buildPhases = (
 				D4BAF05B1A2EAF02006E25DF /* Sources */,
 				D4BAF05C1A2EAF02006E25DF /* Frameworks */,
@@ -136,7 +136,7 @@
 			);
 			dependencies = (
 			);
-			name = Memo;
+			name = "Memo-Mac";
 			productName = Memo;
 			productReference = D4BAF0601A2EAF02006E25DF /* Memo.framework */;
 			productType = "com.apple.product-type.framework";
@@ -188,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4BAF05F1A2EAF02006E25DF /* Memo */,
+				D4BAF05F1A2EAF02006E25DF /* Memo-Mac */,
 				D4BAF06A1A2EAF02006E25DF /* MemoTests */,
 			);
 		};
@@ -233,7 +233,7 @@
 /* Begin PBXTargetDependency section */
 		D4BAF06E1A2EAF02006E25DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4BAF05F1A2EAF02006E25DF /* Memo */;
+			target = D4BAF05F1A2EAF02006E25DF /* Memo-Mac */;
 			targetProxy = D4BAF06D1A2EAF02006E25DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -333,7 +333,7 @@
 				INFOPLIST_FILE = Memo/Info.plist;
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Memo;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -352,7 +352,7 @@
 				INFOPLIST_FILE = Memo/Info.plist;
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Memo;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -401,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4BAF0761A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo" */ = {
+		D4BAF0761A2EAF02006E25DF /* Build configuration list for PBXNativeTarget "Memo-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4BAF0771A2EAF02006E25DF /* Debug */,
