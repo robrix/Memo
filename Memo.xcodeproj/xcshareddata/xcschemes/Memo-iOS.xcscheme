@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4999C381AFD5D9D00F379C6"
-               BuildableName = "Memo-iOS.framework"
+               BuildableName = "Memo.framework"
                BlueprintName = "Memo-iOS"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4999C381AFD5D9D00F379C6"
-            BuildableName = "Memo-iOS.framework"
+            BuildableName = "Memo.framework"
             BlueprintName = "Memo-iOS"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4999C381AFD5D9D00F379C6"
-            BuildableName = "Memo-iOS.framework"
+            BuildableName = "Memo.framework"
             BlueprintName = "Memo-iOS"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4999C381AFD5D9D00F379C6"
-            BuildableName = "Memo-iOS.framework"
+            BuildableName = "Memo.framework"
             BlueprintName = "Memo-iOS"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
