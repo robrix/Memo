@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
-               BuildableName = "Memo-Mac.framework"
+               BuildableName = "Memo.framework"
                BlueprintName = "Memo-Mac"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
-            BuildableName = "Memo-Mac.framework"
+            BuildableName = "Memo.framework"
             BlueprintName = "Memo-Mac"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
-            BuildableName = "Memo-Mac.framework"
+            BuildableName = "Memo.framework"
             BlueprintName = "Memo-Mac"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
-            BuildableName = "Memo-Mac.framework"
+            BuildableName = "Memo.framework"
             BlueprintName = "Memo-Mac"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
