@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4999C441AFD5D9D00F379C6 /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C391AFD5D9D00F379C6 /* Memo.framework */; };
 		D4999C521AFD5E1B00F379C6 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9A4CE1A2EB47C000D9C23 /* Memo.swift */; };
 		D4999C541AFD5E3D00F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4999C551AFD5EA800F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4999C561AFD606000F379C6 /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF0721A2EAF02006E25DF /* MemoTests.swift */; };
 		D4999C571AFD610500F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4999C581AFD610800F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
+		D4999C591AFD613F00F379C6 /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C391AFD5D9D00F379C6 /* Memo.framework */; };
 		D4BAF0661A2EAF02006E25DF /* Memo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BAF0651A2EAF02006E25DF /* Memo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4BAF06C1A2EAF02006E25DF /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0601A2EAF02006E25DF /* Memo.framework */; };
 		D4BAF0731A2EAF02006E25DF /* MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF0721A2EAF02006E25DF /* MemoTests.swift */; };
@@ -21,12 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D4999C451AFD5D9D00F379C6 /* PBXContainerItemProxy */ = {
+		D4999C5A1AFD614B00F379C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4BAF0571A2EAF01006E25DF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D4999C381AFD5D9D00F379C6;
-			remoteInfo = Memo;
+			remoteInfo = "Memo-iOS";
 		};
 		D4BAF06D1A2EAF02006E25DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4999C441AFD5D9D00F379C6 /* Memo.framework in Frameworks */,
+				D4999C591AFD613F00F379C6 /* Memo.framework in Frameworks */,
 				D4999C571AFD610500F379C6 /* Box.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,7 +194,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D4999C461AFD5D9D00F379C6 /* PBXTargetDependency */,
+				D4999C5B1AFD614B00F379C6 /* PBXTargetDependency */,
 			);
 			name = "Memo-iOSTests";
 			productName = MemoTests;
@@ -347,10 +347,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D4999C461AFD5D9D00F379C6 /* PBXTargetDependency */ = {
+		D4999C5B1AFD614B00F379C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4999C381AFD5D9D00F379C6 /* Memo-iOS */;
-			targetProxy = D4999C451AFD5D9D00F379C6 /* PBXContainerItemProxy */;
+			targetProxy = D4999C5A1AFD614B00F379C6 /* PBXContainerItemProxy */;
 		};
 		D4BAF06E1A2EAF02006E25DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
