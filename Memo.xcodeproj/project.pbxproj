@@ -46,7 +46,7 @@
 		D4BAF0651A2EAF02006E25DF /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
 		D4BAF06B1A2EAF02006E25DF /* Memo-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF0711A2EAF02006E25DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4BAF0721A2EAF02006E25DF /* MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; };
+		D4BAF0721A2EAF02006E25DF /* MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTests.swift; sourceTree = "<group>"; usesTabs = 1; };
 		D4D9A4CE1A2EB47C000D9C23 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
