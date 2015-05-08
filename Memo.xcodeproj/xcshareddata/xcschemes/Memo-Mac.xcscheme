@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
                BuildableName = "Memo.framework"
-               BlueprintName = "Memo"
+               BlueprintName = "Memo-Mac"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4BAF06A1A2EAF02006E25DF"
-               BuildableName = "MemoTests.xctest"
-               BlueprintName = "MemoTests"
+               BuildableName = "Memo-MacTests.xctest"
+               BlueprintName = "Memo-MacTests"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4BAF06A1A2EAF02006E25DF"
-               BuildableName = "MemoTests.xctest"
-               BlueprintName = "MemoTests"
+               BuildableName = "Memo-MacTests.xctest"
+               BlueprintName = "Memo-MacTests"
                ReferencedContainer = "container:Memo.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
             BuildableName = "Memo.framework"
-            BlueprintName = "Memo"
+            BlueprintName = "Memo-Mac"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -77,7 +77,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
             BuildableName = "Memo.framework"
-            BlueprintName = "Memo"
+            BlueprintName = "Memo-Mac"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -95,7 +95,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4BAF05F1A2EAF02006E25DF"
             BuildableName = "Memo.framework"
-            BlueprintName = "Memo"
+            BlueprintName = "Memo-Mac"
             ReferencedContainer = "container:Memo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
