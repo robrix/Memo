@@ -598,6 +598,7 @@
 				D4999C4E1AFD5D9D00F379C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4999C4F1AFD5D9D00F379C6 /* Build configuration list for PBXNativeTarget "Memo-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +607,7 @@
 				D4999C511AFD5D9D00F379C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4BAF05A1A2EAF01006E25DF /* Build configuration list for PBXProject "Memo" */ = {
 			isa = XCConfigurationList;
