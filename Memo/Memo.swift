@@ -5,7 +5,7 @@ public struct Memo<T> {
 	// MARK: Lifecycle
 
 	/// Constructs a `Memo` which lazily evaluates the argument.
-	public init(_ unevaluated:  () -> T) {
+	public init(@autoclosure(escaping) _ unevaluated: () -> T) {
 		self.init(unevaluated: unevaluated)
 	}
 
