@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D46974231AFE2761005D3AA3 /* Memo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BAF0651A2EAF02006E25DF /* Memo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4999C521AFD5E1B00F379C6 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9A4CE1A2EB47C000D9C23 /* Memo.swift */; };
 		D4999C541AFD5E3D00F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
 		D4999C551AFD5EA800F379C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4999C531AFD5E3D00F379C6 /* Box.framework */; };
@@ -151,6 +152,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46974231AFE2761005D3AA3 /* Memo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
