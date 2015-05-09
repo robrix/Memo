@@ -7,25 +7,21 @@ This is a Swift microframework providing `Memo<T>`, with implementations of `==`
 
 ## Use
 
-Constructing a `Memo` is easy. Most of the time you just want to lazily memoize an expression, so you’ll want to use the default, unlabelled constructor:
+Constructing a `Memo` is easy. Most of the time you just want to lazily memoize an expression, so you’ll want to use the default, unlabelled initializer:
 
 ```swift
 var memos = 0
-let implicitClosure = Memo(++memos)
+let closure = Memo { ++memos }
 ```
 
-Sometimes you’ll need to compute multiple expressions, or pass in a function `() -> T`. In those cases, use the `unevaluated` constructor (you can also use trailing closure syntax without the label):
+Sometimes you’ll want to pass in a function `() -> T`. In those cases, use the `unevaluated` initializer:
 
 ```swift
-let explicitClosure = Memo {
-	sleep(1)
-	return ++memos
-}
 let preIncrementMemos = { ++memos }
 let lazilyEvaluated = Memo(unevaluated: preIncrementMemos)
 ```
 
-Sometimes you’ve already evaluated, or you want to force the evaluation to happen with the construction of the `Memo` for performance reasons. The `evaluated` constructor handles this:
+Sometimes you’ve already evaluated, or you want to force the evaluation to happen with the construction of the `Memo` for performance reasons. The `evaluated` initializer handles this:
 
 ```swift
 let eagerlyEvaluated = Memo(evaluated: ++memos)
