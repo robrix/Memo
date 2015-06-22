@@ -12,17 +12,17 @@ final class MemoTests: XCTestCase {
 	// MARK: Evaluation
 
 	func testEvaluatesLazilyWithAutoclosureConstruction() {
-		let memo = Memo { ++effects }
+		_ = Memo { ++effects }
 		XCTAssertEqual(effects, 0)
 	}
 
 	func testEvaluatesLazilyWithClosureConstruction() {
-		let memo = Memo { ++effects }
+		_ = Memo { ++effects }
 		XCTAssertEqual(effects, 0)
 	}
 
 	func testEvaluatesEagerlyWithValueConstruction() {
-		let memo = Memo(evaluated: ++effects)
+		_ = Memo(evaluated: ++effects)
 		XCTAssertEqual(effects, 1)
 	}
 

@@ -16,7 +16,7 @@ public struct Memo<T> {
 
 	/// Constructs a `Memo` wrapping the already-evaluated argument.
 	public init(evaluated: T) {
-		self.init(state: .Evaluated(Box(evaluated)))
+		self.init(state: .Evaluated(evaluated))
 	}
 
 
@@ -71,23 +71,18 @@ public func != <T: Equatable> (lhs: Memo<T>, rhs: Memo<T>) -> Bool {
 
 /// Private state for memoization.
 private enum MemoState<T> {
-	case Evaluated(Box<T>)
+	case Evaluated(T)
 	case Unevaluated(() -> T)
 
 	/// Return the value, computing and memoizing it first if necessary.
 	mutating func value() -> T {
 		switch self {
 		case let Evaluated(x):
-			return x.value
+			return x
 		case let Unevaluated(f):
 			let value = f()
-			self = Evaluated(Box(value))
+			self = Evaluated(value)
 			return value
 		}
 	}
 }
-
-
-// MARK: Imports
-
-import Box
